@@ -1,0 +1,9 @@
+nmap
+tcpdump
+wget
+git
+bind-utils
+socat
+yajl
+lsof
+jq
