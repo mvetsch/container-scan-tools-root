@@ -9,3 +9,5 @@ RUN yum -y update
 RUN yum -y install `cat fedora-packages` 
 
 RUN bash /root/installer/* 
+
+CMD journalctl -f
